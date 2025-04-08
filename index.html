@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPM Random Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>BPM Random Generator</h1>
+        <div class="controls">
+            <label for="bpm">BPM:</label>
+            <input type="number" id="bpm" value="60" min="40" max="300">
+            <button id="startStop">開始</button>
+            <div class="radio-container">
+                <label class="radio-label">
+                    <input type="radio" name="mode" value="both" checked>
+                    <span>数字+文字</span>
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="mode" value="number">
+                    <span>数字のみ</span>
+                </label>
+            </div>
+        </div>
+        <div class="display">
+            <div id="output"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

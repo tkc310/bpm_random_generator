@@ -1,0 +1,11 @@
+{
+  "name": "bpm-generator",
+  "version": "1.0.0",
+  "description": "BPMに基づくランダムジェネレーター",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+} 
