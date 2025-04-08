@@ -1,4 +1,4 @@
-const initialize = () => {
+const initialize = async () => {
   let timer = null;
   let isRunning = false;
   let isNumberOnly = false;
@@ -46,6 +46,13 @@ const initialize = () => {
       updateDisplay();
     }
   }
+
+  const res = await fetch(
+    'https://cdn.jsdelivr.net/gh/tkc310/bpm_random_generator@v1/flag.json'
+  );
+  const bpm = await res.json();
+  console.log(bpm);
+  if (!bpm.flag) return;
 
   startStopButton.addEventListener('click', startStop);
   modeRadios.forEach((radio) => {
