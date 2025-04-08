@@ -24,6 +24,10 @@
       "dest": "/script.js"
     },
     {
+      "src": "/script_uglified.js",
+      "dest": "/script_uglified.js"
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.html"
     }
