@@ -4,6 +4,8 @@
 
 `index.html` をダブルクリックして起動
 
+https://github.com/user-attachments/assets/66ab39f3-678a-4b37-8855-236b862b9ea6
+
 ## Features
 
 - BPM値の設定（40-300）
